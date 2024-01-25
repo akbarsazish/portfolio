@@ -12,12 +12,11 @@ const Computers = ({isMobile}) => {
       <ambientLight />
       <pointLight intensity={1} />
       <spotLight position={[-20, 50, 10]}
-         angle={0.12} penumbra={1}
-         intensity={1}
+         angle={0.12} penumbra={1} intensity={1}
          castShadow shadowmapSize={1024} />
       <primitive object={computer.scene}
-         scale={isMobile ? 0.6 : 0.75}
-         position={isMobile ? [0, -2.6, -2.1] : [0, -3.20, -1.4]}
+         scale={isMobile ? 0.4 : 0.70}
+         position={isMobile ? [0, -2.5, -0.9] : [0, -3.5, -1]}
          rotation={[-0.01, -0.2, -0.1]} />
     </mesh>
   )
