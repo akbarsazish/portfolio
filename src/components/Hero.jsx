@@ -1,4 +1,5 @@
 import {motion} from "framer-motion";
+import {FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -15,7 +16,15 @@ const Hero = () => {
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}> Hi I'am <span className="text-[#915eff]"> Ali Akbar Sazish </span> </h1>
             <p className={`${styles.heroSubText} mt-1 text-white-100`}>
-              Take a glance at my portfolio to gain insights into my skills and experience. If you have a project in mind, please feel free to reach out to me. I'm ready to help you turn your ideas into reality.
+              Take a glance at my skills and experience. If you have a project in mind, please feel free to reach out to me. 
+          
+              <span className="inline flex flex-row gap-2 mt-2">
+                  <a className="black-gradient z-50 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline" target="_blank" href="https://www.linkedin.com/in/ali-akbar-sazish/"> <FaLinkedinIn /> </a>
+                  <a className="black-gradient z-50 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline" target="_blank" href="https://github.com/akbarsazish"> <FaGithub /> </a>
+                  <a className="black-gradient z-50 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline" target="_blank" href="https://twitter.com/AliAkbarSazish1"> <FaTwitter /> </a>
+                  <a className="black-gradient z-50 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline" target="_blank" href="https://www.facebook.com/profile.php?id=100008137806708"> <FaFacebook /> </a>
+                  <a className="black-gradient z-50 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline" target="_blank" href="https://www.instagram.com/ali_sazish/"> <FaInstagram /> </a>
+                </span>
             </p>
         </div>
       </div>

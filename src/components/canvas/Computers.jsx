@@ -12,8 +12,8 @@ const Computers = ({isMobile}) => {
       <ambientLight />
       <pointLight intensity={1} />
       <spotLight position={[-20, 50, 10]}
-         angle={0.12} penumbra={1} intensity={1}
-         castShadow shadowmapSize={1024} />
+        angle={0.12} penumbra={1} intensity={1}
+        castShadow shadowmapSize={1024} />
       <primitive object={computer.scene}
          scale={isMobile ? 0.4 : 0.70}
          position={isMobile ? [0, -2.5, -0.9] : [0, -3.5, -1]}
@@ -37,11 +37,9 @@ const ComputersCanvas = () => {
   },[])
   
   return (
-    <Canvas
-      frameloop="demand" shadows
+    <Canvas frameloop="demand" shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
-    >
+      gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<Canvasloader />}>
         <OrbitControls enableZoom={false}
           maxPolarAngle={Math.PI / 2}

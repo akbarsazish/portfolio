@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import {FaCloudDownloadAlt } from 'react-icons/fa';
 
 import { styles } from '../styles';
 import { logo, menu, close } from '../assets';
@@ -27,6 +28,10 @@ const Navbar = () => {
               </li>
             ))
           }
+          <li className="text-whitehover:text-white font-meduim cursor-pointer text[18px]">
+            <a className="inline" href="../Ali Akbar Sazish CV.pdf" download="Ali Akbar Sazish CV.pdf">  Resume  <FaCloudDownloadAlt className="inline" /> </a>
+          
+          </li>
         </ul>
         <div className="sm:hidden flex flex-1 items-center justify-end">
           <img className="w-[28px] h-[28px] object-contain cursor-pointer"
