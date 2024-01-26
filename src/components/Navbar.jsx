@@ -30,7 +30,6 @@ const Navbar = () => {
           }
           <li className="text-whitehover:text-white font-meduim cursor-pointer text[18px]">
             <a className="inline" href="../Ali Akbar Sazish CV.pdf" download="Ali Akbar Sazish CV.pdf">  Resume  <FaCloudDownloadAlt className="inline" /> </a>
-          
           </li>
         </ul>
         <div className="sm:hidden flex flex-1 items-center justify-end">
@@ -45,6 +44,9 @@ const Navbar = () => {
                     <a href={`#${link.id}`}> {link.title} </a>
                   </li>
               )) }
+               <li className="text-whitehover:text-white font-meduim cursor-pointer text[18px]">
+                  <a className="inline" href="../Ali Akbar Sazish CV.pdf" download="Ali Akbar Sazish CV.pdf">  Resume  <FaCloudDownloadAlt className="inline" /> </a>
+              </li>
             </ul>
           </div>
         </div>
