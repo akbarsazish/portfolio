@@ -199,3 +199,25 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+
+:root {
+  --neon-color: #0ef;
+  --dark-blue-color: #176980;
+  --text-color: #fff;
+  --first-bg-color: #161f2b;
+  --second-bg-color: #202734;
+  --navbar-bg-color: #1b2430;
+  --button-border-color: #333b46;
+  --tabs-color: rgb(66, 82, 96);
+  --black-color: rgb(43, 43, 51);
+  --white-color: #fff;
+  --active-tab-bg-color: #1f2c3d;
+  --timeline-content-bg-color: #1f2a39;
+  --bars-container-bg-color: #c2c6e2;
+  --project-link-color: rgb(7, 157, 167);
+  --stars-color: gold;
+  --social-media-color: #323946;
+  --project-desc-color: #fff;
+  --lang-input-color: #323946;
+}

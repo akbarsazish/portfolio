@@ -5,24 +5,27 @@ import {
     web,
     javascript,
     typescript,
-    html,
     css,
     reactjs,
     redux,
+    jQuery,
     tailwind,
-    nodejs,
-    mongodb,
+    bootstrap,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    starfoods,
+    addressLLC,
+    trade,
+    education,
     carrent,
     jobit,
     tripguide,
     threejs,
+    php,
+    laravel,
+    wordpress,
+    sql,
+  
   } from "../assets";
   
   export const navLinks = [
@@ -42,28 +45,28 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
+      date: "Apr 2022 - PRESENT",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Web Developer",
+      date: "Feb 2020 - Aug 2021",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Database Manager",
+      date: "Sep 2018 - Jan 2020",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Biometric Engineer",
+      date: "Biometric Engineer",
       icon: creator,
     },
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
     {
       name: "CSS 3",
       icon: css,
@@ -85,17 +88,18 @@ import {
       icon: redux,
     },
     {
+      name: "jQuery",
+      icon: jQuery,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Bootstrap",
+      icon: bootstrap,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    
     {
       name: "Three JS",
       icon: threejs,
@@ -104,38 +108,39 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+  
     {
       name: "docker",
       icon: docker,
+    },
+
+    {
+      name: "php",
+      icon: php,
+    },
+    {
+      name: "laravel",
+      icon: laravel,
+    },
+    {
+      name: "wordpress",
+      icon: wordpress,
+    },
+    {
+      name: "sql",
+      icon: sql,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Developer",
+      company_name: "Artam Almas Alborz",
+      icon: starfoods,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Apr 2022 - PRESENT",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using JavaScript, TypeScript, React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
@@ -143,32 +148,63 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      company_name: "ADRAS (Afghanistan Development and Registry and Addressing Services)",
+      icon: addressLLC,
+      iconBg: "#E6DEDD",
+      date: "Feb 2020 - Aug 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to the development of a large software system that centralizes administrative operations of governmental civil ORGs across 34 provinces.",
+        "The system focused on employee records and letter management in ministries and their departments.",
+        "Independently created 2 modules from scratch and participated as a team member on 5 additional projects.",
+        "Played an essential role as part of a team of 189 IT and web developers in the successful deployment of the software to over 3,000 active users.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Database Manager",
+      company_name: "Ministry of industry and Commerce",
+      icon: trade,
+      iconBg: "#383E56",
+      date: "Sep 2018 - Jan 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Retrieve information through database queries.",
+        "Work closely with developers to assist in database schema design and development tasks.",
+        "Support database backup and recovery processes as needed.",
+        "Foster effective communication and collaboration with database developers to align with project requirements..",
+      ],
+    },
+    {
+      title: "Biometric Technical Member",
+      company_name: "Ministry of Higher Education of Afghanistan",
+      icon: education,
+      iconBg: "#E6DEDD",
+      date: "Feb 2017 - Aug 2018",
+      points: [
+        "Coordinated the distribution of ID cards for Kankor Examination volunteers.",
+        "Managed the registration process for Kankor Examination volunteers, verifying their identity through eye detection and fingerprint scanning.",
+        "Facilitated the seamless transfer of database data between computers and the server through efficient export and import operations..",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
   
+
+  const technicalSkills = [
+      { "skill": "HTML", "percentage": 95 },
+      { "skill": "CSS", "percentage": 85 },
+      { "skill": "Bootstrap", "percentage": 95 },
+      { "skill": "JavaScript", "percentage": 80 },
+      { "skill": "React", "percentage": 70 }
+  ];
+
+
+  const softSkills = [
+      { "skill": "Teamwork", "percentage": 90 },
+      { "skill": "Creativity", "percentage": 85 },
+      { "skill": "Management", "percentage": 80 },
+      { "skill": "Learning", "percentage": 85 },
+      { "skill": "Planing", "percentage": 85 }
+
+  ];
   
   const testimonials = [
     {
@@ -207,10 +243,7 @@ import {
           name: "react",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
+       
         {
           name: "tailwind",
           color: "pink-text-gradient",
@@ -263,4 +296,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, technicalSkills, softSkills, testimonials,  projects };
