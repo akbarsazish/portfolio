@@ -1,12 +1,12 @@
 .skill-bar {
-  width: 70%;
+  max-width: 80%;
   margin: 1rem auto;
 }
 
 .skill-name {
   margin-bottom: 0.5rem;
   text-align: left;
-  font-size: 1rem;
+  font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
 }
@@ -17,7 +17,7 @@
 }
 
 .skill-name .skill-percentage {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: var(--bars-container-bg-color);
 }
 
@@ -42,7 +42,7 @@
 .bar-container {
   position: relative;
   background-color: var(--bars-container-bg-color);
-  height: 1rem;
+  height: 0.6rem;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -69,15 +69,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .bar-container {
-    height: 1.55rem;
+    height: 0.6rem;
     border-radius: 10px;
   }
 
   .skill-name span {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
 
   .skill-name .skill-percentage {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }

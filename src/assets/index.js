@@ -17,7 +17,6 @@ import jQuery from "./tech/jQuery.png";
 import tailwind from "./tech/tailwind.png";
 import bootstrap from "./tech/bootstrap.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import php from "./tech/php.svg";
 import laravel from "./tech/laravel.svg";
 import wordpress from "./tech/wordpress.svg";
@@ -28,12 +27,13 @@ import addressLLC from "./company/addressLLC.png";
 import trade from "./company/trade.png";
 import education from "./company/education.png";
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
-let test = "jqury"
+import starfood from "./starfood.png";
+import crm from "./crm.png";
+import math from "./math.png";
+import air_pollution from "./air_pollution.png";
+import awesome_books from "./awesome_books.png";
+import book_store from "./book_store.png";
+import online_academy from "./online_academy.png";
 
 export {
   logo,
@@ -54,7 +54,6 @@ export {
   tailwind,
   bootstrap,
   typescript,
-  threejs,
   php,
   laravel,
   wordpress,
@@ -63,8 +62,11 @@ export {
   addressLLC,
   trade,
   education,
-  carrent,
-  jobit,
-  tripguide,
-  test
+  starfood,
+  crm,
+  math,
+  air_pollution,
+  awesome_books,
+  book_store,
+  online_academy
 };

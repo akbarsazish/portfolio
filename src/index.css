@@ -202,7 +202,7 @@
 
 
 :root {
-  --neon-color: #0ef;
+  --neon-color: #221d41;
   --dark-blue-color: #176980;
   --text-color: #fff;
   --first-bg-color: #161f2b;
@@ -216,8 +216,5 @@
   --timeline-content-bg-color: #1f2a39;
   --bars-container-bg-color: #c2c6e2;
   --project-link-color: rgb(7, 157, 167);
-  --stars-color: gold;
-  --social-media-color: #323946;
-  --project-desc-color: #fff;
-  --lang-input-color: #323946;
+
 }

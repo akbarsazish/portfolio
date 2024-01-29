@@ -12,15 +12,17 @@ import {
     tailwind,
     bootstrap,
     git,
-    docker,
     starfoods,
     addressLLC,
     trade,
     education,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    starfood,
+    crm,
+    math,
+    air_pollution,
+    awesome_books,
+    book_store,
+    online_academy,
     php,
     laravel,
     wordpress,
@@ -101,17 +103,8 @@ import {
     },
     
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-  
-    {
-      name: "docker",
-      icon: docker,
     },
 
     {
@@ -188,22 +181,35 @@ import {
   ];
   
 
-  const technicalSkills = [
-      { "skill": "HTML", "percentage": 95 },
-      { "skill": "CSS", "percentage": 85 },
-      { "skill": "Bootstrap", "percentage": 95 },
-      { "skill": "JavaScript", "percentage": 80 },
-      { "skill": "React", "percentage": 70 }
+  const frontEndSkills = [
+      { "front": "JavaScript", "percentage": 90 },
+      { "front": "TypeScript", "percentage": 80 },
+      { "front": "React & Redux Toolkit", "percentage": 85 },
+      { "front": "jQuery & Ajax", "percentage": 80 },
+      { "front": "Tailwind & Bootstrap", "percentage": 70 },
+      { "front": "HTML & CCS", "percentage": 95 }
+  ];
+
+  const backEndSkills = [
+      { "backEnd": "PHP", "percentage": 60 },
+      { "backEnd": "Laravel", "percentage": 65 },
+      { "backEnd": "SQL", "percentage": 50 },
+      { "backEnd": "WordPress", "percentage": 70 },
   ];
 
 
-  const softSkills = [
-      { "skill": "Teamwork", "percentage": 90 },
-      { "skill": "Creativity", "percentage": 85 },
-      { "skill": "Management", "percentage": 80 },
-      { "skill": "Learning", "percentage": 85 },
-      { "skill": "Planing", "percentage": 85 }
+  const toolsAndMethods = [
+      { "tools": "Git & GitHub", "percentage": 85 },
+      { "tools": "API", "percentage": 80 },
+      { "tools": "Responsive Dev", "percentage": 90 },
+      { "tools": "Chrome Dev Tools", "percentage": 85 },
+  ];
 
+  const softSkills = [
+      { "soft": "Problem solving", "percentage": 85 },
+      { "soft": "Team work", "percentage": 80 },
+      { "soft": "Mentoring", "percentage": 90 },
+      { "soft": "Remote Pair-Programming", "percentage": 85 },
   ];
   
   const testimonials = [
@@ -235,65 +241,182 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Starfoods",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Starfoods demonstrates my web development skills, emphasizing user-friendly interfaces, smooth shopping experiences, secure payments, and quick shipping. Explore my work to see how I can enhance your next project.",
       tags: [
-        {
-          name: "react",
+        { name: "React",
           color: "blue-text-gradient",
+        },
+        { name: "Bootstrap",
+          color: "green-text-gradient",
         },
        
-        {
-          name: "tailwind",
+        { name: "CSS",
+          color: "pink-text-gradient",
+        },
+        { name: "Laravel",
+          color: "blue-text-gradient",
+        },
+        { name: "SQL Server",
+          color: "green-text-gradient",
+        },
+      ],
+      image: starfood,
+      source_code_link: "https://github.com/akbarsazish/starfoods",
+      see_live_link: "https://star.starfoods.ir",
+    },
+    {
+      name: "CRM",
+      description:
+        "A CRM (Customer Relationship Management) system, streamlines customer data management, and provides analytics. I specialize in creating adaptable CRM solutions that support sales, customer service, and growth, reflecting my skills in developing, data-driven applications.",
+      tags: [
+        { name: "JavScript",
+          color: "blue-text-gradient",
+        },
+        { name: "jQuery",
+          color: "green-text-gradient",
+        },
+        {name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+        {name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {  name: "Laravel",
+          color: "green-text-gradient",
+        },
+        { name: "SQL Server",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: crm,
+      source_code_link: "https://github.com/akbarsazish/crm-update",
+      see_live_link: "https://star4.ir",
     },
     {
-      name: "Job IT",
+      name: "Math",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Math magicians is a website for all fans of mathematics. It allows user to make simple calculations and read random math related qoutes.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "HTML",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: math,
+      source_code_link: "https://github.com/akbarsazish/Math-Magicians",
+      see_live_link: "https://math-magicians-9om6.onrender.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Air Pollution",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Presenting a straightforward air pollution application that offers historical air quality data for various countries worldwide. Users can easily search for specific locations to access air pollution information.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Redux Toolkit",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: air_pollution,
+      source_code_link: "https://github.com/akbarsazish/Air-Pollution-API",
+      see_live_link: "https://akbarsazish.github.io/Air-Pollution-API/",
+    },
+    {
+      name: "Books",
+      description:
+        "Awesome Books website lets you add books with their titles and authors to a list and remove them when needed. The data is stored in the browser memory using localStorage for easy access. It is a simple tool for keeping track of your books.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux Toolkit",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: awesome_books,
+      source_code_link: "https://github.com/akbarsazish/Awesome-Books-ES6",
+      see_live_link: "https://akbarsazish.github.io/Awesome-Books-ES6/",
+    },
+    {
+      name: "Book Store",
+      description:
+        "An online small project which developed by react and redux toolkit that enable users that they can add their books and authors, see list of books and they are able edit and delete the book from the list.",
+        tags: [
+          {
+            name: "React",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Redux Toolkit",
+            color: "green-text-gradient",
+          },
+          {
+            name: "CSS",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "HTML",
+            color: "blue-text-gradient",
+          },
+        ],
+      image: book_store,
+      source_code_link: "https://github.com/akbarsazish/Bookstore-React",
+      see_live_link: "https://akbarsazish.github.io/Bookstore-React/",
+    },
+    {
+      name: "Online Academy",
+      description:
+        "Online Academy is an online platform for web development and programming. I will be enhancing in the future and include tutorials on HTML, CSS, JavaScript, PHP, ASP.NET, and more, spanning front-end, back-end, mobile app development, and web design.",
+        tags: [
+          {
+            name: "JavScript",
+            color: "blue-text-gradient",
+          },
+    
+          {
+            name: "CSS",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "HTML",
+            color: "blue-text-gradient",
+          },
+        ],
+      image: online_academy,
+      source_code_link: "https://github.com/akbarsazish/Sazish-Academy",
+      see_live_link: "https://akbarsazish.github.io/Sazish-Academy/",
     },
   ];
   
-  export { services, technologies, experiences, technicalSkills, softSkills, testimonials,  projects };
+  export { services, technologies, experiences, frontEndSkills, backEndSkills, toolsAndMethods, softSkills, testimonials,  projects };

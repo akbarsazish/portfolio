@@ -1,15 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./SkillBars.css";
-import { SectionWrapper } from "../../hoc";
 
 const SkillBar = ({ skill, percentage }) => {
   const barRef = useRef(null);
 
-  // setting animation to skill bars conditionally
   const [isAnimated, setIsAnimated] = useState(false);
 
   useEffect(() => {
-    // checking if the element is fully visible
     const handleScroll = () => {
       if (barRef.current) {
         const { top, bottom } = barRef.current.getBoundingClientRect();
@@ -44,4 +41,4 @@ const SkillBar = ({ skill, percentage }) => {
   );
 };
 
-export default SkillBar
+export default SkillBar;
