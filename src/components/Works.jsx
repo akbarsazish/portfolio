@@ -1,15 +1,14 @@
 import { Tilt } from "react-tilt";
 import {motion} from "framer-motion";
 import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
 import { projects} from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({index, name, tags, description, image, source_code_link, see_live_link}) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-       <Tilt options={{ max:45, scale:1,  speed:450}} 
-       className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.70)}>
+       <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="bg-tertiary p-4 rounded-2xl sm:w-[360px] w-full">
+        
         <div className="relative w-full h-[230px]">
           <img src={image} alt={name}  className="w-full h-full object-cover rounded-2xl"/>
         </div>
@@ -33,8 +32,8 @@ const ProjectCard = ({index, name, tags, description, image, source_code_link, s
 
 const Works = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
+    <div className={`${styles.paddingX} max-w-7xl mx-auto relative z-0 mt-10`}>
+      <motion.div variants={textVariant()} >
           <p className={styles.sectionSubText}> My Projects </p>
           <h2 className={styles.sectionHeadText}> Projects. </h2>
       </motion.div>
@@ -49,8 +48,8 @@ const Works = () => {
               <ProjectCard  key={`project-${index}`} index={index} {...project} />
           ))}
       </div>
-    </>
+    </div>
   )
 }
 
-export default SectionWrapper(Works, "")
+export default Works

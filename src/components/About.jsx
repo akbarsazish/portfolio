@@ -7,8 +7,6 @@ import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
 
-
-
 const SeviceCard = ({ index, title, icon, date}) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -23,6 +21,7 @@ const SeviceCard = ({ index, title, icon, date}) => {
         </div>
       </motion.div>
     </Tilt>
+    
   )
 }
 
@@ -34,13 +33,12 @@ const About = () => {
       <h2 className={styles.sectionHeadText}> Overview. </h2>
     </motion.div>
     <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] mx-w-3xl leading-[30px]">
-       I am a full-stack developer, specializing in front-end development with expertise in JavaScript, TypeScript, and React. I bring a robust ownership mindset, effective communication, and collaboration skills to every project. Passion for continuous learning and adapting to new technologies.
+    As a full-stack developer, I excel in front-end development using JavaScript, TypeScript, and React. I approach every project with a strong sense of ownership, effective communication, and teamwork. My passion lies in continuous learning and embracing new technologies.
     </motion.p>
     <div className="mt-20 flex flex-wrap gap-10">
       {services.map((service, index) => (
         <SeviceCard index={index} key={service.title} {...service} />
       ))}
-  
     </div>
     </>
   )

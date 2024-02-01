@@ -27,9 +27,10 @@ import {
     laravel,
     wordpress,
     sql,
-  
+
   } from "../assets";
-  
+
+
   export const navLinks = [
     {
       id: "about",
@@ -48,25 +49,41 @@ import {
   const services = [
     {
       title: "Frontend Developer",
-      date: "Apr 2022 - PRESENT",
       icon: web,
     },
     {
-      title: "Web Developer",
-      date: "Feb 2020 - Aug 2021",
+      title: "Backend Developer",
       icon: mobile,
     },
     {
-      title: "Database Manager",
-      date: "Sep 2018 - Jan 2020",
+      title: "Full Stack Developer",
       icon: backend,
     },
     {
-      title: "Biometric Engineer",
-      date: "Biometric Engineer",
+      title: "Blockchain Developer",
       icon: creator,
     },
   ];
+
+  const hobbies = [
+    {
+      title: "Frontend Developer",
+      icon: web,
+    },
+    {
+      title: "Backend Developer",
+      icon: mobile,
+    },
+    {
+      title: "Full Stack Developer",
+      icon: backend,
+    },
+    {
+      title: "Blockchain Developer",
+      icon: creator,
+    },
+  ];
+
   
   const technologies = [
     {
@@ -242,8 +259,7 @@ import {
   const projects = [
     {
       name: "Starfoods",
-      description:
-        "Starfoods demonstrates my web development skills, emphasizing user-friendly interfaces, smooth shopping experiences, secure payments, and quick shipping. Explore my work to see how I can enhance your next project.",
+      description:"Starfoods demonstrates my web development skills, emphasizing user-friendly interfaces, smooth shopping experiences, secure payments, and quick shipping. Explore my work to see how I can enhance your next project.",
       tags: [
         { name: "React",
           color: "blue-text-gradient",
@@ -266,10 +282,10 @@ import {
       source_code_link: "https://github.com/akbarsazish/starfoods",
       see_live_link: "https://star.starfoods.ir",
     },
+
     {
       name: "CRM",
-      description:
-        "A CRM (Customer Relationship Management) system, streamlines customer data management, and provides analytics. I specialize in creating adaptable CRM solutions that support sales, customer service, and growth, reflecting my skills in developing, data-driven applications.",
+      description: "A CRM (Customer Relationship Management) system, streamlines customer data management, and provides analytics. I specialize in creating adaptable CRM solutions that support sales, customer service, and growth, reflecting my skills in developing, data-driven applications.",
       tags: [
         { name: "JavScript",
           color: "blue-text-gradient",
@@ -296,8 +312,7 @@ import {
     },
     {
       name: "Math",
-      description:
-        "Math magicians is a website for all fans of mathematics. It allows user to make simple calculations and read random math related qoutes.",
+      description: "Math magicians is a website for all fans of mathematics. It allows user to make simple calculations and read random math related qoutes.",
       tags: [
         {
           name: "React",
@@ -318,8 +333,7 @@ import {
     },
     {
       name: "Air Pollution",
-      description:
-        "Presenting a straightforward air pollution application that offers historical air quality data for various countries worldwide. Users can easily search for specific locations to access air pollution information.",
+      description: "Presenting a straightforward air pollution application that offers historical air quality data for various countries worldwide. Users can easily search for specific locations to access air pollution information.",
       tags: [
         {
           name: "React",
@@ -344,8 +358,7 @@ import {
     },
     {
       name: "Books",
-      description:
-        "Awesome Books website lets you add books with their titles and authors to a list and remove them when needed. The data is stored in the browser memory using localStorage for easy access. It is a simple tool for keeping track of your books.",
+      description: "Awesome Books website lets you add books with their titles and authors to a list and remove them when needed. The data is stored in the browser memory using localStorage for easy access. It is a simple tool for keeping track of your books.",
       tags: [
         {
           name: "React",
@@ -370,8 +383,7 @@ import {
     },
     {
       name: "Book Store",
-      description:
-        "An online small project which developed by react and redux toolkit that enable users that they can add their books and authors, see list of books and they are able edit and delete the book from the list.",
+      description: "An online small project which developed by react and redux toolkit that enable users that they can add their books and authors, see list of books and they are able edit and delete the book from the list.",
         tags: [
           {
             name: "React",
@@ -395,15 +407,13 @@ import {
       see_live_link: "https://akbarsazish.github.io/Bookstore-React/",
     },
     {
-      name: "Online Academy",
-      description:
-        "Online Academy is an online platform for web development and programming. I will be enhancing in the future and include tutorials on HTML, CSS, JavaScript, PHP, ASP.NET, and more, spanning front-end, back-end, mobile app development, and web design.",
+      name: "X Academy",
+      description: "X Academy is an online platform for web development and programming. I will be enhancing in the future and include tutorials on HTML, CSS, JavaScript, PHP, ASP.NET, and more, spanning front-end, back-end, mobile app development, and web design.",
         tags: [
           {
             name: "JavScript",
             color: "blue-text-gradient",
           },
-    
           {
             name: "CSS",
             color: "pink-text-gradient",
@@ -419,4 +429,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, frontEndSkills, backEndSkills, toolsAndMethods, softSkills, testimonials,  projects };
+  export { services, hobbies, technologies, experiences, frontEndSkills, backEndSkills, toolsAndMethods, softSkills, testimonials,  projects };

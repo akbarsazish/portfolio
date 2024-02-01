@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import {FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter, FaHandPointDown} from 'react-icons/fa';
-import { MdOutgoingMail } from "react-icons/md";
+import {FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter, FaHandPointDown, FaBookReader, FaMusic} from 'react-icons/fa';
+import { MdOutlineSportsMartialArts } from "react-icons/md";
+import { MdOutgoingMail, MdCardTravel } from "react-icons/md";
 import { styles } from "../styles";
 
 const Hero = () => {
@@ -17,7 +18,7 @@ const Hero = () => {
     setIsCopied(true);
     setTimeout(() => {
       setIsCopied(false);
-    }, 4000);
+    }, 3000);
   };
 
   return (
@@ -50,8 +51,16 @@ const Hero = () => {
             </p>
             <p className={`${styles.heroSubText} mt-6 text-white-100`}> Email:  <span className="text-[#915eff]"> sazishaliakbar@gmail.com </span> </p>
             <p className={`${styles.heroSubText} text-white-100`}> Phone:  <span className="text-[#915eff]"> +9100473242 <span className="text-white"> | </span> +9045028064 </span> </p>
-
+            
+              <h1 className="lg:text-[40px] sm:text-[30px] xs:text-[25px] text-[20px] lg:leading-[80px] font-bold">  My Hobbies: </h1>
+            <div className="flex justify-center flex-shrink-5 mt-5 gap-5">
+              <button className="bg-violet-500 hover:bg-blue-700 text-white rounded"> <FaBookReader className="inline" /> Reading Books </button>
+              <button className="bg-violet-500 hover:bg-blue-700 text-white rounded"> <MdOutlineSportsMartialArts /> Sport </button>
+              <button className="bg-violet-500 hover:bg-blue-700 text-white rounded"> <MdCardTravel /> Traveling </button>
+              <button className="bg-violet-500 hover:bg-blue-700 text-white rounded"> <FaMusic /> Music </button>
+            </div>
         </div>
+        
       </div>
     </section>
   )

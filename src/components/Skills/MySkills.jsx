@@ -9,7 +9,7 @@ import {styles} from "../../styles";
 export default function MySkills() {
 
   return (
-    <section id="skills" className={`${styles.paddingX} max-w-7xl mx-auto relative z-0`}>
+    <section id="skills" className={`${styles.paddingX} max-w-7xl mx-auto relative z-0 mt-10`}>
        <motion.div variants={textVariant()} className="mt-5">
         <p className={styles.sectionSubText}> Technologies && Skills </p>
         <h2 className={styles.sectionHeadText}> Skills. </h2>
