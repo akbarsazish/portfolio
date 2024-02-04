@@ -27,10 +27,10 @@ const Hero = () => {
         mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col items-center justify-center mt-5">
            <div className="w-5 h-5 rounded-full bg-[#915eff]"/>
-           <div className="w-1 sm:h-80 h-80 violet-gradient" />
+           <div className="w-1 sm:h-90 h-80 violet-gradient" />
         </div>
         {isCopied && 
-        <span className="text-white-100 w-full max-w-80 rounded flex place-self-center justify-center items-center p-3 fixed top-22 z-20 bg-gradient-to-r from-indigo-300">Email has been copied! </span>}
+        <span className="text-white-100 w-full max-w-80 rounded flex place-self-center justify-center items-center p-3 fixed top-22 z-10 bg-gradient-to-r from-indigo-300">Email has been copied! </span>}
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}> Hi I'am <span className="text-[#915eff]"> Ali Akbar Sazish </span> </h1>
             <p className={`${styles.heroSubText} mt-1 text-white-100`}>
@@ -52,12 +52,12 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-6 text-white-100`}> Email:  <span className="text-[#915eff]"> sazishaliakbar@gmail.com </span> </p>
             <p className={`${styles.heroSubText} text-white-100`}> Phone:  <span className="text-[#915eff]"> +9100473242 <span className="text-white"> | </span> +9045028064 </span> </p>
             
-              <h1 className="lg:text-[40px] sm:text-[30px] xs:text-[25px] text-[20px] lg:leading-[80px] font-bold">  My Hobbies: </h1>
-            <div className="flex justify-center flex-shrink-5 mt-5 gap-5">
-              <button className="bg-violet-500 hover:bg-blue-700 text-white rounded"> <FaBookReader className="inline" /> Reading Books </button>
-              <button className="bg-violet-500 hover:bg-blue-700 text-white rounded"> <MdOutlineSportsMartialArts /> Sport </button>
-              <button className="bg-violet-500 hover:bg-blue-700 text-white rounded"> <MdCardTravel /> Traveling </button>
-              <button className="bg-violet-500 hover:bg-blue-700 text-white rounded"> <FaMusic /> Music </button>
+            <h1 className="lg:text-[40px] sm:text-[30px] xs:text-[25px] text-[20px] lg:leading-[80px] font-bold mt-5">  My Hobbies: </h1>
+            <div className="flex flex-row flex-wrap gap-5">
+              <button className="green-pink-gradient cursor-pointer text-white font-semibold py-2 px-4 rounded"> <FaBookReader className="inline" /> Reading Book </button>
+              <button className="green-pink-gradient cursor-pointer text-white font-semibold py-2 px-4 rounded"> <MdOutlineSportsMartialArts className="inline"/> Sport </button>
+              <button className="green-pink-gradient cursor-pointer text-white font-semibold py-2 px-4 rounded"> <MdCardTravel className="inline" /> Traveling </button>
+              <button className="green-pink-gradient cursor-pointer text-white font-semibold py-2 px-4 rounded"> <FaMusic className="inline" /> Music </button>
             </div>
         </div>
         
