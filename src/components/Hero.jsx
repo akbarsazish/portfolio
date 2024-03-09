@@ -32,7 +32,7 @@ const Hero = () => {
         {isCopied && 
         <span className="text-white-100 w-full max-w-80 rounded flex place-self-center justify-center items-center p-3 fixed top-22 z-10 bg-gradient-to-r from-indigo-300">Email has been copied! </span>}
           <div>
-            <h1 className={`${styles.heroHeadText} text-white`}> Hi I'am <span className="text-[#915eff]"> Ali Akbar Sazish </span> </h1>
+            <h1 className={`${styles.heroHeadText} text-white`}> Front End <span className="text-[#915eff]"> Developer </span> </h1>
             <p className={`${styles.heroSubText} mt-1 text-white-100`}>
             Check out my portfolio and previous projects to understand the depth of my skills and experience. If you have a project that requires coding expertise, I'm ready to help you turn your ideas into reality.
              Please feel free to reach out to me. <FaHandPointDown className="inline text-[32px] text-[#915eff]" />
