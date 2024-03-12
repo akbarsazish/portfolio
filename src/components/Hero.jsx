@@ -55,10 +55,10 @@ const Hero = () => {
           
                 <fieldset>
                   <legend><span> My Hobbies </span></legend>
-                      <button class="pulse-button"> Reading  </button>
-                      <button class="pulse-button"> Sport  </button>
-                      <button class="pulse-button"> Music  </button>
-                      <button class="pulse-button"> Traveling  </button>
+                      <button className="pulse-button"> Reading  </button>
+                      <button className="pulse-button"> Sport  </button>
+                      <button className="pulse-button"> Music  </button>
+                      <button className="pulse-button"> Traveling  </button>
               </fieldset>
         </div>
       </div>
