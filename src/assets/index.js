@@ -1,6 +1,7 @@
 import logo from "./logo.jpg";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import cv from "./cv.pdf";
 
 import starfoods from "./company/starfoods.png";
 import addressLLC from "./company/addressLLC.png";
@@ -19,6 +20,7 @@ export {
   logo,
   menu,
   close,
+  cv,
   starfoods,
   addressLLC,
   trade,

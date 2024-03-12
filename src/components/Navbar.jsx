@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom';
 import {FaCloudDownloadAlt } from 'react-icons/fa';
 
 import { styles } from '../styles';
-import { logo, menu, close } from '../assets';
+import { logo, menu, close, cv} from '../assets';
 import { navLinks } from '../constants/index';
 
 
 const Navbar = () => {
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false)
-  const resumeUrl = '/Ali_Akbar_Sazish_CV.pdf';
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
@@ -30,8 +29,8 @@ const Navbar = () => {
             ))
           }
           <li className="text-whitehover:text-white font-meduim cursor-pointer text[18px]">
-          <a href={resumeUrl} download="Ali_Akbar_Sazish_CV.pdf" target="_blank" rel="noreferrer">
-              Resume <FaCloudDownloadAlt className="inline" />
+          <a href={cv} download="Ali Akbar Sazish CV.pdf" target='_blank'>
+             Reusme <FaCloudDownloadAlt className="inline" />
             </a>
           </li>
         </ul>
@@ -49,7 +48,8 @@ const Navbar = () => {
                   </li>
               )) }
                <li className="text-whitehover:text-white font-meduim cursor-pointer text[18px]">
-                  <a className="inline" href="../Ali Akbar Sazish CV.pdf" download="Ali Akbar Sazish CV.pdf">  Resume  <FaCloudDownloadAlt className="inline" /> </a>
+               <a href={cv} download="Ali Akbar Sazish CV.pdf" target='_blank'>
+                     Reusme <FaCloudDownloadAlt className="inline" /> </a>
               </li>
             </ul>
           </div>
