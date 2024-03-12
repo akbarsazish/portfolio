@@ -10,6 +10,7 @@ import { navLinks } from '../constants/index';
 const Navbar = () => {
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false)
+  const resumeUrl = '/Ali_Akbar_Sazish_CV.pdf';
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
@@ -29,11 +30,12 @@ const Navbar = () => {
             ))
           }
           <li className="text-whitehover:text-white font-meduim cursor-pointer text[18px]">
-            <a className="inline" href="../Ali_Akbar_Sazish_CV.pdf" download="Ali_Akbar_Sazish_CV.pdf">
-                Resume  <FaCloudDownloadAlt className="inline" />
+          <a href={resumeUrl} download="Ali_Akbar_Sazish_CV.pdf" target="_blank" rel="noreferrer">
+              Resume <FaCloudDownloadAlt className="inline" />
             </a>
           </li>
         </ul>
+
         <div className="sm:hidden flex flex-1 items-center justify-end">
           <img className="w-[28px] h-[28px] object-contain cursor-pointer"
           onClick={()=>{setToggle(!toggle)}} src={toggle ? close : menu} alt="menu" />
