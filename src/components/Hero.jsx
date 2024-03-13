@@ -33,9 +33,9 @@ const Hero = () => {
         {isCopied && 
         <span className="text-white-100 w-full max-w-80 rounded flex place-self-center justify-center items-center p-3 fixed top-22 z-10 bg-gradient-to-r from-indigo-300">Email has been copied! </span>}
           <div>
-            <h1 className={`${styles.heroHeadText} text-white`}> Front End <span className="text-[#915eff]"> Developer </span> </h1>
+            <h1 className={`${styles.heroHeadText} text-white`}> Front End <span className="text-[#915eff]"> Engineer </span> </h1>
             <p className={`${styles.heroSubText} mt-1 text-white-100`}>
-                Frontend Engineer with over 3 years of experience specializing in JavaScript, TypeScript, React, and Redux. Proficient in working with backend technologies such as Laravel and SQL. I possess excellent communication and collaboration skills, and I am passionate about continuous learning and adapting to new technologies.
+                with over 3 years of experience specializing in JavaScript, TypeScript, React, and Redux. Proficient in working with backend technologies such as Laravel and SQL. I possess excellent communication and collaboration skills, and I am passionate about continuous learning and adapting to new technologies.
             </p>
             
                 <span className="inline flex flex-row gap-2 mt-7">
@@ -51,7 +51,7 @@ const Hero = () => {
                   </span>
             
                 <p className={`${styles.heroSubText} mt-6 text-white-100`}> Email:  <span className="text-[#915eff]"> sazishaliakbar@gmail.com </span> </p>
-                <p className={`${styles.heroSubText} text-white-100`}> Phone:  <span className="text-[#915eff]"> +9100473242 <span className="text-white"> | </span> +9045028064 </span> </p>
+                <p className={`${styles.heroSubText} text-white-100`}> Phone:  <span className="text-[#915eff]"> +9100473242 </span> </p>
           
                 <fieldset>
                   <legend><span> My Hobbies </span></legend>
