@@ -193,6 +193,32 @@ legend span {
   background: #040815;
 }
 
+
+.img-hover-zoom--slowmo img {
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(150%);
+  animation: zoomInOut 10s infinite alternate;
+}
+
+.img-hover-zoom--slowmo:hover img {
+  filter: brightness(100%);
+  transform: scale(3) translateY(30%);
+
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(3) translateY(30%);
+  }
+  50% {
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    transform: scale(3) translateY(30%);
+  }
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
