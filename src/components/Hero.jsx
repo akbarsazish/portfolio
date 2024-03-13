@@ -35,7 +35,7 @@ const Hero = () => {
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}> Front End <span className="text-[#915eff]"> Developer </span> </h1>
             <p className={`${styles.heroSubText} mt-1 text-white-100`}>
-              Full Stack Developer (JavaScript, TypeScript, React & Redux, Laravel, SQL) with strength in frontend development and bring over three years of industry experience. Excellent communication and collaboration skills, and a passion for learning and adapting to new technologies.
+                Frontend Engineer with over 3 years of experience specializing in JavaScript, TypeScript, React, and Redux. Proficient in working with backend technologies such as Laravel and SQL. I possess excellent communication and collaboration skills, and I am passionate about continuous learning and adapting to new technologies.
             </p>
             
                 <span className="inline flex flex-row gap-2 mt-7">
