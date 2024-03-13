@@ -175,6 +175,7 @@ fieldset {
   position: relative;
   border: 2px groove threedface;
 }
+
 legend {
   position: absolute;
   top: -2px;
@@ -197,14 +198,11 @@ legend span {
 .img-hover-zoom--slowmo img {
   transform-origin: 50% 65%;
   transition: transform 5s, filter 3s ease-in-out;
-  filter: brightness(150%);
   animation: zoomInOut 10s infinite alternate;
 }
 
 .img-hover-zoom--slowmo:hover img {
-  filter: brightness(100%);
   transform: scale(3) translateY(30%);
-
 }
 
 @keyframes zoomInOut {
