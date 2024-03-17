@@ -197,8 +197,8 @@ legend span {
 
 .img-hover-zoom--slowmo img {
   transform-origin: 50% 65%;
-  transition: transform 5s, filter 3s ease-in-out;
-  animation: zoomInOut 10s infinite alternate;
+  transition: transform 6s, filter 3s ease-in-out;
+  animation: zoomInOut 11s infinite alternate;
 }
 
 .img-hover-zoom--slowmo:hover img {
