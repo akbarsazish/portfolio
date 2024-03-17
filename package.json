@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://akbarsazish.github.io/portfolio",
+  "homepage": "https://akbarsazish.github.io",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
